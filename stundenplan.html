@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stundenplan</title>
+    <style>
+        td, th {
+            text-align: center;
+        }
+        .aen1 {
+            background-color: skyblue;
+        }
+        .aen2 {
+            background-color: greenyellow;
+        }
+
+        .nwt {
+            background-color: thistle;
+        }
+        .bs {
+            background-color:lightsalmon;
+        }
+        .m {
+            background-color:yellow;
+        }
+        .e {
+            background-color:orange;
+        }
+        .csy {
+            background-color:peachpuff
+        }
+    </style>
+</head>
+<body>
+    <h1>Stundenplan</h1>
+    <table>
+        <tr><th>T3A</th><th>Montag</th><th>Dienstag</th><th>Mittwoch</th><th>Donnerstag</th><th>Freitag</th></tr>
+        <tr><th>8:00-8:45</th><td class="aen1" rowspan="2">AEN1</td><td class="aen1" rowspan="2">AEN1</td><td class="nwt" rowspan="2">NWT</td><td class="aen2" rowspan="2">AEN2</td><td class="nwt" rowspan="2">NWT</td></tr>
+        <tr><th>8:45-9:30</th></tr>
+        <tr><th>9:30-9:45</th><td colspan="5">P A U S E</td></tr>
+        <tr><th>9:45-10:30</th><td class="aen1">AEN1</td><td class="m">M</td><td class="csy">CSY</td><td class="aen2">AEN2</td><td class="nwt">NWT</td></tr>
+        <tr><th>10:30-11:15</th><td class="aen1">AEN1</td><td class="m">M</td><td class="csy">CSY</td><td class="bs">BS</td><td class="nwt">NWT</td></tr>
+        <tr><th>11:15-12:00</th><td class="bs">BS</td><td class="e">E</td><td class="csy">CSY</td><td class="bs">BS</td><td class="bs">BS</td></tr>
+        <tr><th>12:00-12:30</th><td colspan="5">P A U S E</td></tr>
+    </table>
+</body>
+</html>
